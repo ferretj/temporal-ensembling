@@ -8,13 +8,23 @@ Best seed accuracy : 98.38%.
 
 ## Usage
 
+#### Standard requirements
+
 First, install the requirements in a virtual environment :
 
 ```sh
 pip install -r requirements.txt
 ```
 
+#### Regarding PyTorch and torchvision
+
+I used PyTorch version 0.3.0.post4 and torchvision version 0.2.0, so these are the recommended versions.
+
+If you want to run it using PyTorch 0.4+, see [this issue](https://github.com/ferretj/temporal-ensembling/issues/1). 
+
 Install PyTorch and torchvision as shown [here](http://pytorch.org/) according to your specs.
+
+#### Training a model
 
 You can launch a MNIST evaluation from the command line using :
 
